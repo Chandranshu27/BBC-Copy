@@ -1,0 +1,124 @@
+#topbar {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.topborder {
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+#logo {
+    float: left;
+    padding: 4px 4px 4px 0px;
+}
+
+body {
+    margin: 0px;
+    border-top: 2px solid black
+}
+
+#insign {
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    float: left;
+    padding: 4px 4px 4px 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.blank {
+    height: 25px;
+    width: 50px;
+    float: left;
+    padding: 4px 8px;
+    font-weight: 600;
+    color: black
+}
+
+#second-bar {
+    height: 50px;
+    margin-top: 4px;
+    background-color: rgb(187, 25, 25);
+}
+
+#cont {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 40px;
+}
+
+#hover:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+#third-bar {
+    height: 40px;
+    background-color: rgb(169, 23, 23);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+    color: white;
+    padding: 5px 12px;
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+li a:hover {
+    text-decoration: underline white;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+#more {
+    border: none;
+}
+
+#restpart {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#first-element {
+    width: 65%;
+    height: 280px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+    margin-right: 20px;
+    float: left;
+}
+
+#first-head {
+    font-size: 35px;
+    color: gray;
+}
+
+#first-head:hover {
+    color: #1167A8;
+}
+
+#first-head-content {
+    color: gray;
+    font-size: 15px;
+}
+
+#first-time {
+    padding: 0px 5px 0px 20px;
+    float: left;
+    border-right: 1px solid gainsboro;
+    margin-right: 5px;
+}
+
+#first-tag {
+    color: #BB1919;
+}
